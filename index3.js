@@ -63,7 +63,7 @@ function machineSequence(){
 
 
 function playAudio(name){
-  var sund = new Audio("sounds/"+name+".mp3");
+  var sund = new Audio(name+".mp3");
   sund.play();
 }
 
