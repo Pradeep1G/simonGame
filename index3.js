@@ -27,7 +27,7 @@ $(".btn").click(function(){
 });
 
 function checkAnswer(currentLevel){
-  if(clickedList[currentLevel]===fixedRandomList[currentLevel-1]){console.log(currentLevel);
+  if(clickedList[currentLevel]===fixedRandomList[currentLevel]){console.log(currentLevel);
     if(clickedList.length===fixedRandomList.length){console.log(clickedList.length);
       setTimeout(function () {
         machineSequence();
